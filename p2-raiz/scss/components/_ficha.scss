@@ -1,5 +1,5 @@
 // _ficha.scss — ✍️ A3 · la ficha de una planta, que se adapta a SU HUECO (container query)
-//
+
 // La ficha sale dos veces: en los consejos de inicio (un hueco estrecho) y en producto.html (un hueco ancho).
 // Ahora va SIEMPRE en fila, y en los consejos se aplasta.
 // ✍️ A3.
@@ -25,6 +25,7 @@
     flex-direction: row;
   }
 }
+
 .ficha__cuerpo {
   padding: $space-md;
 }
